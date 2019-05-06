@@ -1,9 +1,10 @@
 import React from 'react';
+import WineList from './WineList';
 
 const App = () => {
     return (
         <div>
-            Drink Wine!
+            <WineList />
         </div>
     )
 }
